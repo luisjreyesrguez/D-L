@@ -93,3 +93,113 @@
     color: #fff; /* Color del texto blanco */
     border: 1px solid #333; /* Borde gris oscuro al pasar el cursor */
 }
+/* photos */
+
+/* Estilos para las imágenes en la galería */
+.image-container {
+    overflow: hidden; /* Asegura que las imágenes se recorten si es necesario */
+    width: 100%; /* Ajusta al ancho del contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    display: flex; /* Usa flexbox para alinear las imágenes */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    position: relative; /* Permite posicionar elementos dentro */
+}
+
+.img-thumbnail {
+    width: 100%; /* Ajusta al ancho del contenedor */
+    height: 100%; /* Ajusta la altura al contenedor */
+    object-fit: cover; /* Cubre el área del contenedor sin deformar la imagen */
+    cursor: pointer; /* Indica que la imagen es clickeable */
+}
+
+/* Estilos para el modal y el sombreado */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    z-index: 1000; /* Por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Permite el desplazamiento si es necesario */
+    background-color: rgba(0,0,0,0.8); /* Fondo negro translúcido */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px; /* Ajusta el tamaño máximo */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para la sección final */
+/* Estilos para la sección final */
+.final-section {
+    background-color: #f8f9fa; /* Fondo claro para contraste */
+    padding: 40px 0; /* Espaciado vertical */
+    text-align: center;
+}
+
+.final-section h2 {
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.final-section p {
+    color: #555; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado debajo del párrafo */
+}
+
+.final-section .btn {
+    background-color: #dc3545; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cursor de mano para indicar clickeable */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.final-section .btn:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #000; /* Fondo negro para el footer */
+    color: white; /* Texto blanco */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center; /* Centrar el texto */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+.footer p {
+    margin: 10px 0; /* Espaciado vertical entre párrafos */
+}
+
+.footer .disclaimer {
+    font-style: italic; /* Cursiva para el disclaimer */
+    font-size: 12px; /* Tamaño de fuente más pequeño para el disclaimer */
+}
+
