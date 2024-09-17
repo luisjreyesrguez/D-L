@@ -1,0 +1,95 @@
+/* styles.css */
+.hero-section {
+    background-color: #e8e8e8;
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section .container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .header {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn-primary {
+    background-color: #ff5733;
+    border: none;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #e04e28;
+}
+
+.highlight {
+    color: #000;
+    font-weight: bold;
+}
+
+.destination-section, .destination-section-alt {
+    padding: 60px 0;
+}
+
+.destination-section-alt {
+    background-color: #e8e8e8;
+}
+
+.large-img {
+    width: 720px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon::before {
+    content: '❮';
+    font-size: 24px;
+    color: #fff;
+}
+
+.carousel-control-next-icon::before {
+    content: '❯';
+    font-size: 24px;
+    color: #fff;
+}
+/* Estilo personalizado para los botones */
+.btn-black {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Color del texto blanco */
+    border: 1px solid #000; /* Borde negro */
+}
+
+.btn-black:hover {
+    background-color: #333; /* Color de fondo gris oscuro al pasar el cursor */
+    color: #fff; /* Color del texto blanco */
+    border: 1px solid #333; /* Borde gris oscuro al pasar el cursor */
+}
