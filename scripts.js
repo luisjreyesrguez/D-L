@@ -6,11 +6,12 @@ document.getElementById('celebrate-button-1').addEventListener('click', function
         spread: 70,
         origin: { y: 0.6 }
     });
-
+    /*
     // Redirigir a WhatsApp después de un breve retraso
     setTimeout(function() {
         window.location.href = 'https://wa.me/+5216181345512?text=Vamos a las cabañas!';
     }, 1000); // Retraso de 1 segundo para asegurar que el confeti se muestre
+    */
 });
 
 
@@ -22,7 +23,7 @@ document.getElementById('celebrate-button-2').addEventListener('click', function
     });
     // Redirigir a WhatsApp después de un breve retraso
     setTimeout(function() {
-        window.location.href = 'https://wa.me/+526182054157?text=Vamos a la Mazatlan!';
+        window.location.href = 'pages/maz.html'; // Redirigir a la nueva página
     }, 1000); // Retraso de 1 segundo para asegurar que el confeti se muestre
 
 });
