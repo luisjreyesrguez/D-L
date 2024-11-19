@@ -23,7 +23,7 @@ document.getElementById('celebrate-button-2').addEventListener('click', function
     });
     // Redirigir a WhatsApp después de un breve retraso
     setTimeout(function() {
-        window.location.href = 'pages/maz.html'; // Redirigir a la nueva página
+        window.location.href = 'pages/maz/maz.html'; // Redirigir a la nueva página
     }, 1000); // Retraso de 1 segundo para asegurar que el confeti se muestre
 
 });
